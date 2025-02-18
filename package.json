@@ -1,0 +1,19 @@
+{
+  "name": "hw-js-2-2-19",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "parcel": "^2.13.3"
+  }
+}
